@@ -1,16 +1,6 @@
 {
   "type": "minecraft:lerp",
-  "alpha": "mementa:continents_mask",
+  "alpha": "mementa:continents",
   "first": -1,
-  "second": {
-    "type": "minecraft:clamp",
-    "input": {
-      "type": "minecraft:noise",
-      "noise": "mementa:topography",
-      "xz_scale": 1,
-      "y_scale": 0
-    },
-    "min": 0,
-    "max": 1
-  }
+  "second": "mementa:topography_coastlines"
 }

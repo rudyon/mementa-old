@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:sub",
+    "left": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:sub",
+        "left": "mementa:coastlines",
+        "right": "mementa:continents_mask"
+      },
+      "min": -1,
+      "max": 0
+    },
+    "right": {
+      "type": "minecraft:negate",
+      "input": "mementa:continents_mask"
+    }
+  },
+  "min": 0,
+  "max": 1
+}

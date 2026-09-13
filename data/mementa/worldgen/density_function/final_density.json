@@ -6,7 +6,7 @@
     "right": {
       "type": "minecraft:mul",
       "left": "mementa:topography",
-      "right": 6
+      "right": 32
     }
   },
   "right": {

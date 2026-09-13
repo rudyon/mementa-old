@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "right": "mementa:topography_raw",
+  "left": "mementa:coastlines_in"
+}
