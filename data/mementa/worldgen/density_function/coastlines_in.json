@@ -1,13 +1,13 @@
 {
-  "type": "minecraft:clamp",
+  "type": "minecraft:negate",
   "input": {
-    "type": "minecraft:mul",
-    "left": "mementa:coastlines",
-    "right": {
-      "type": "minecraft:negate",
-      "input": "mementa:continents_mask"
-    }
-  },
-  "min": -1,
-  "max": 0
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:mul",
+      "left": "mementa:coastlines",
+      "right": "mementa:continents_mask"
+    },
+    "min": -1,
+    "max": 0
+  }
 }

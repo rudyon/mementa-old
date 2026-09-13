@@ -2,11 +2,11 @@
   "type": "minecraft:sub",
   "left": {
     "type": "minecraft:add",
-    "left": 62,
+    "left": 42,
     "right": {
       "type": "minecraft:mul",
       "left": "mementa:topography",
-      "right": 64
+      "right": 32
     }
   },
   "right": {

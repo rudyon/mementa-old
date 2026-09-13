@@ -1,13 +1,9 @@
 {
   "type": "minecraft:clamp",
   "input": {
-    "type": "minecraft:negate",
-    "input": {
-      "type": "minecraft:lerp",
-      "alpha": "mementa:continents",
-      "first": 0.4,
-      "second": "mementa:topography_coastlines"
-    }
+    "type": "minecraft:mul",
+    "left": "mementa:topography_raw",
+    "right": "mementa:coastlines_in"
   },
   "min": -1,
   "max": 1
