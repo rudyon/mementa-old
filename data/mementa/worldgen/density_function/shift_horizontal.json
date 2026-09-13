@@ -3,7 +3,7 @@
   "left": {
     "type": "minecraft:noise",
     "noise": "mementa:offset",
-    "xz_scale": 0.001,
+    "xz_scale": 0.02,
     "y_scale": 0
   },
   "right": 1200

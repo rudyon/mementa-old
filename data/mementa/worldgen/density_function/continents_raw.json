@@ -1,7 +1,7 @@
 {
   "type": "minecraft:noise",
   "noise": "mementa:continents",
-  "xz_scale": 2,
+  "xz_scale": 1,
   "y_scale": 0,
   "shift_x": "mementa:shift_horizontal",
   "shift_y": 0,

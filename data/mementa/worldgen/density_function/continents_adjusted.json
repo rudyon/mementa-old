@@ -1,10 +1,32 @@
 {
-  "type": "minecraft:add",
-  "right": "mementa:continents_raw",
-  "left": {
-    "type": "minecraft:noise",
-    "noise": "mementa:continents_bias",
-    "xz_scale": 1.8,
-    "y_scale": 0
-  }
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "right": {
+      "type": "minecraft:add",
+      "right": "mementa:continents_raw",
+      "left": {
+        "type": "minecraft:mul",
+        "right": 4,
+        "left": {
+          "type": "minecraft:noise",
+          "noise": "mementa:continents_bias_a",
+          "xz_scale": 1.6,
+          "y_scale": 0
+        }
+      }
+    },
+    "left": {
+      "type": "minecraft:mul",
+      "right": -8,
+      "left": {
+        "type": "minecraft:noise",
+        "noise": "mementa:continents_bias_b",
+        "xz_scale": 1,
+        "y_scale": 0
+      }
+    }
+  },
+  "min": -1,
+  "max": 1
 }

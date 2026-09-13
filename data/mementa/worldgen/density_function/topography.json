@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "mementa:topography",
+  "xz_scale": 1,
+  "y_scale": 0
+}
