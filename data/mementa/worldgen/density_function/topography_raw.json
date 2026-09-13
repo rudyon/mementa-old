@@ -8,7 +8,7 @@
       "xz_scale": 1,
       "y_scale": 0
     },
-    "min": 0,
+    "min": -1,
     "max": 1
   },
   "left": "mementa:continents_mask"

@@ -1,4 +1,8 @@
 {
-  "type": "minecraft:abs",
-  "input": "mementa:continents"
+  "type": "minecraft:mul",
+  "left": {
+    "type": "minecraft:abs",
+    "input": "mementa:continents"
+  },
+  "right": 0.2
 }

@@ -4,8 +4,8 @@
     "type": "minecraft:negate",
     "input": {
       "type": "minecraft:lerp",
-      "alpha": "mementa:continents_adjusted",
-      "first": 0,
+      "alpha": "mementa:continents",
+      "first": 0.4,
       "second": "mementa:topography_coastlines"
     }
   },
