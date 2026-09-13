@@ -1,6 +1,14 @@
 {
-  "type": "minecraft:lerp",
-  "alpha": "mementa:continents",
-  "first": -1,
-  "second": "mementa:topography_coastlines"
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:negate",
+    "input": {
+      "type": "minecraft:lerp",
+      "alpha": "mementa:continents_adjusted",
+      "first": 0,
+      "second": "mementa:topography_coastlines"
+    }
+  },
+  "min": -1,
+  "max": 1
 }

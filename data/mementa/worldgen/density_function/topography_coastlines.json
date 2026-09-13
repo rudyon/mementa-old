@@ -1,5 +1,6 @@
 {
-  "type": "minecraft:mul",
-  "right": "mementa:topography_raw",
-  "left": "mementa:coastlines_in"
+  "type": "minecraft:lerp",
+  "alpha": "mementa:coastlines_in",
+  "first": 0,
+  "second": "mementa:topography_raw"
 }
