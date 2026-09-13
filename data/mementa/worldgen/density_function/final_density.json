@@ -2,20 +2,20 @@
   "type": "minecraft:sub",
   "left": {
     "type": "minecraft:add",
-    "left": 32,
+    "left": 64,
     "right": {
       "type": "minecraft:mul",
-      "left": "mementa:continents_mask",
-      "right": 32
+      "left": "mementa:topography",
+      "right": 6
     }
   },
   "right": {
     "type": "minecraft:gradient",
     "axis": "y",
+    "tiling": "clamp_to_edge",
     "from_coordinate": -64,
     "to_coordinate": 320,
     "from_value": -64,
-    "to_value": 320,
-    "tiling": "clamp_to_edge"
+    "to_value": 320
   }
 }
