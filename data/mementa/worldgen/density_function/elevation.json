@@ -1,5 +1,5 @@
 {
   "type": "minecraft:mul",
   "left": "mementa:landmasses",
-  "right": "mementa:noise/terrain"
+  "right": "mementa:noise/elevation"
 }

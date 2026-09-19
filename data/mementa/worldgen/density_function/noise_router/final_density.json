@@ -4,10 +4,14 @@
     "type": "minecraft:add",
     "left": {
       "type": "minecraft:mul",
-      "left": "mementa:terrain",
-      "right": 8
+      "left": {
+        "type": "minecraft:div",
+        "left": "mementa:final",
+        "right": 3
+      },
+      "right": 32
     },
-    "right": 60
+    "right": 62
   },
   "right": {
     "type": "minecraft:gradient",

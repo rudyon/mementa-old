@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:add",
+  "left": "mementa:landmasses",
+  "right": {
+    "type": "minecraft:add",
+    "left": "mementa:terrain",
+    "right": "mementa:elevation"
+  }
+}

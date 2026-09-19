@@ -1,10 +1,5 @@
 {
-  "type": "minecraft:lerp",
-  "alpha": {
-    "type": "minecraft:add",
-    "left": "mementa:continents_mask",
-    "right": "mementa:coastlines"
-  },
-  "first": -1,
-  "second": 1
+  "type": "minecraft:add",
+  "left": "mementa:continents/mask",
+  "right": "mementa:coastlines"
 }
