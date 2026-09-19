@@ -5,7 +5,7 @@
     "left": {
       "type": "minecraft:mul",
       "left": "mementa:terrain",
-      "right": 12
+      "right": 8
     },
     "right": 60
   },

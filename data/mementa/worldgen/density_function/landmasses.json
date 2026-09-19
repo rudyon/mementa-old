@@ -2,9 +2,9 @@
   "type": "minecraft:lerp",
   "alpha": {
     "type": "minecraft:add",
-    "left": "mementa:landmasses",
-    "right": "mementa:noise/terrain"
+    "left": "mementa:continents_mask",
+    "right": "mementa:coastlines"
   },
-  "first": 0,
+  "first": -1,
   "second": 1
 }
