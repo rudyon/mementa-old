@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:sign",
+  "type": "minecraft:range_choice",
   "input": "mementa:continents",
   "min_inclusive": 0,
-  "max_exclusive": 1.1,
+  "max_exclusive": 1,
   "when_in_range": 1,
   "when_out_of_range": 0
 }

@@ -1,13 +1,13 @@
 {
-  "type": "minecraft:sub",
+  "type": "minecraft:add",
   "left": {
     "type": "minecraft:add",
-    "left": 42,
-    "right": {
+    "left": {
       "type": "minecraft:mul",
-      "left": "mementa:topography",
-      "right": 32
-    }
+      "left": "mementa:terrain",
+      "right": 12
+    },
+    "right": 60
   },
   "right": {
     "type": "minecraft:gradient",
@@ -15,7 +15,7 @@
     "tiling": "clamp_to_edge",
     "from_coordinate": -64,
     "to_coordinate": 320,
-    "from_value": -64,
-    "to_value": 320
+    "from_value": 64,
+    "to_value": -320
   }
 }

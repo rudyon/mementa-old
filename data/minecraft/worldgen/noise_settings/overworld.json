@@ -14,7 +14,7 @@
     "continents": 0,
     "depth": 0,
     "erosion": 0,
-    "final_density": "mementa:final_density",
+    "final_density": "mementa:noise_router/final_density",
     "ridges": 0,
     "temperature": 0,
     "vegetation": 0
