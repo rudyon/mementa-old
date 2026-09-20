@@ -6,6 +6,6 @@
     "xz_scale": 1,
     "y_scale": 0
   },
-  "min": 0,
+  "min": -0.5,
   "max": 1
 }
