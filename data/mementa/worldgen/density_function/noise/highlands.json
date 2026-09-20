@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:noise",
+    "noise": "mementa:highlands",
+    "xz_scale": 1,
+    "y_scale": 0
+  },
+  "min": -0.2,
+  "max": 1
+}

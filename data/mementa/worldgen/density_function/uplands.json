@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "left": "mementa:landmasses",
+  "right": "mementa:noise/uplands"
+}

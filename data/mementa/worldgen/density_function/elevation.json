@@ -1,5 +1,9 @@
 {
-  "type": "minecraft:mul",
-  "left": "mementa:landmasses",
-  "right": "mementa:noise/elevation"
+  "type": "minecraft:add",
+  "left": "mementa:uplands",
+  "right": {
+    "type": "minecraft:mul",
+    "left": "mementa:uplands",
+    "right": "mementa:noise/highlands"
+  }
 }

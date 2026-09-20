@@ -2,7 +2,7 @@
   "type": "minecraft:clamp",
   "input": {
     "type": "minecraft:noise",
-    "noise": "mementa:elevation",
+    "noise": "mementa:uplands",
     "xz_scale": 1,
     "y_scale": 0
   },
