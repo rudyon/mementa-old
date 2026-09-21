@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:negate",
+      "input": {
+        "type": "minecraft:abs",
+        "input": "mementa:noise/continents"
+      }
+    },
+    "right": 2
+  },
+  "right": 2
+}

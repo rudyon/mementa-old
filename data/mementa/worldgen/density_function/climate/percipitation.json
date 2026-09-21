@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "left": "mementa:climate/oceanwardness",
+  "right": "mementa:climate/rainfall"
+}

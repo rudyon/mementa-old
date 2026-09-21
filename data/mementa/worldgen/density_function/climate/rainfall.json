@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "mementa:climate/latitude",
+    "points": [
+      {
+        "location": 0,
+        "value": 1,
+        "derivative": 0
+      },
+      {
+        "location": 0.3,
+        "value": 0,
+        "derivative": 0
+      },
+      {
+        "location": 0.7,
+        "value": 1,
+        "derivative": 0
+      },
+      {
+        "location": 1,
+        "value": 0,
+        "derivative": 0
+      }
+    ]
+  }
+}

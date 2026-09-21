@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:gradient",
+  "axis": "z",
+  "tiling": "mirrored_repeat",
+  "from_coordinate": 0,
+  "to_coordinate": 16000,
+  "from_value": 0,
+  "to_value": 1
+}
